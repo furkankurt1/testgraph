@@ -1,0 +1,45 @@
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignore build output
+[Dd]ebug/
+[Rr]elease/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.bak
+*.vspscc
+*.vssscc
+
+# Ignore .NET Core Tools
+.project.json
+.project.lock.json
+.global.json
+
+# Ignore Visual Studio files
+*.cache
+*.sln.docstates
+*.suo
+*.userprefs
+*.vsp
+*.vspx
+*.vsscc
+*.vssettings
+*.vssscc
+*.vsx
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+*.csproj.iml
+
+# Ignore node_modules
+node_modules/
+
+# Ignore Web deploy files
+*.pubxml
+*.publishsettings
